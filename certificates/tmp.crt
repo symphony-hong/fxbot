@@ -1,0 +1,67 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:C = US, ST = Texas, L = Leander, O = Symphony Communications LLC, OU = Jedi Council, CN = *qs.dev.symphony.com, emailAddress = jedi@symphony.com
+   i:C = US, ST = CA, L = PA, O = Symphony Communications LLC, OU = Engineering Services (DEV), CN = *.dev.symphony.com, emailAddress = symphony-engservices@symphony.com
+-----BEGIN CERTIFICATE-----
+MIIEmTCCA4GgAwIBAgIJAOF6obu0vMOIMA0GCSqGSIb3DQEBCwUAMIHBMQswCQYD
+VQQGEwJVUzELMAkGA1UECBMCQ0ExCzAJBgNVBAcTAlBBMSQwIgYDVQQKExtTeW1w
+aG9ueSBDb21tdW5pY2F0aW9ucyBMTEMxIzAhBgNVBAsTGkVuZ2luZWVyaW5nIFNl
+cnZpY2VzIChERVYpMRswGQYDVQQDFBIqLmRldi5zeW1waG9ueS5jb20xMDAuBgkq
+hkiG9w0BCQEWIXN5bXBob255LWVuZ3NlcnZpY2VzQHN5bXBob255LmNvbTAeFw0x
+NzEwMDUxNzQ1MThaFw0yNzEwMDMxNzQ1MThaMIGtMQswCQYDVQQGEwJVUzEOMAwG
+A1UECBMFVGV4YXMxEDAOBgNVBAcTB0xlYW5kZXIxJDAiBgNVBAoTG1N5bXBob255
+IENvbW11bmljYXRpb25zIExMQzEVMBMGA1UECxMMSmVkaSBDb3VuY2lsMR0wGwYD
+VQQDFBQqcXMuZGV2LnN5bXBob255LmNvbTEgMB4GCSqGSIb3DQEJARYRamVkaUBz
+eW1waG9ueS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDcaubY
++xn6GJg0Mf5erQBOZBZ2MkSlsc7kYQ7NGk+agzYWl7xt5JyfrHkpAL1P5dT4U+Od
+KeoKgxX3UxpjmumpkUDkclWq9qmDsHiZNtAXyj+5E6Y+eR33ATPws7QUyj4Qp/xt
+Tim10R/P5Jo8P4p980Ih6AWprBvtX2gpZVD8YwXx+cDG8LeRm1mGrU8u+6Tmykhj
+qErz4BrpjqzdDyzrNtlasYsuOWe871qnE57Rsuv3pTN9iuTZ60v5G8D9iDAzpdEn
+i9Nr9rTIKwzRLsrOR9b9JwShce97W52T2TMQ44qvTCmSiZSMGvZUBgyh9IrXP886
+Gp/5DDGiIu8BnR4NAgMBAAGjgaUwgaIwHwYDVR0jBBgwFoAU3oKDdLl+O/Bp3WGJ
+uN9PgC8yI+IwCQYDVR0TBAIwADALBgNVHQ8EBAMCBPAwZwYDVR0RBGAwXoIOKi5z
+eW1waG9ueS5jb22CEiouZGV2LnN5bXBob255LmNvbYIRKi5xYS5zeW1waG9ueS5j
+b22CFSoucXMuZGV2LnN5bXBob255LmNvbYIOKi5lYzIuaW50ZXJuYWwwDQYJKoZI
+hvcNAQELBQADggEBAGrNORL7YdG3vHPw2v9XQCQjwRF/cFYKL3WxmpKeH8W1ZBho
+uTuXP+uFk3a4GGBNipjEOHx2U3i/QAdYYP0KB8NMBIc/w9FIBNrfLngjMT8TPpZd
+zmu2Qez+Ro68VggaqN2Oc8BaWronqwgunwxG1F3sisN8qhkZ5mhck/W8Nm5nDq+Z
+cQ8jlhkrXVdZE0ZCWSveK3LcVoiZG8dsGQRmVxoCOOH3phqSaGn8F+NvgUkLXHPH
+LmkswQ79L8R7LuRyhy2uyen5bVYQl+ZvqI3Sw0t/dD6N4In45NClA1sK2EyYhk4X
++KjbjxEvKk8Hf981F1wk6UJGNph2bVzW9TdUzHM=
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=C = US, ST = Texas, L = Leander, O = Symphony Communications LLC, OU = Jedi Council, CN = *qs.dev.symphony.com, emailAddress = jedi@symphony.com
+
+issuer=C = US, ST = CA, L = PA, O = Symphony Communications LLC, OU = Engineering Services (DEV), CN = *.dev.symphony.com, emailAddress = symphony-engservices@symphony.com
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 1669 bytes and written 450 bytes
+Verification error: unable to verify the first certificate
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: 5F19872DCE937B2E788D4FF1701463ABAF78018C4E60AF5455217047BC110A4F
+    Session-ID-ctx: 
+    Master-Key: D0526E884DA8CF81D2C3384ED9AE5AA37E7FDD1B56BF30C8750D2E1E5BCA7B082B56FF0FBACFD6DB9FF52E3366347D71
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1595508525
+    Timeout   : 7200 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+    Extended master secret: yes
+---

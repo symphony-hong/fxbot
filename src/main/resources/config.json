@@ -1,0 +1,38 @@
+{
+    "sessionAuthHost": "devx1.symphony.com",
+    "sessionAuthPort": 443,
+    "keyAuthHost": "devx1.symphony.com",
+    "keyAuthPort": 443,
+    "podHost": "devx1.symphony.com",
+    "podPort": 443,
+    "agentHost": "devx1.symphony.com",
+    "agentPort": 443,
+
+
+    "botUsername": "fxbot-hong",
+    "botEmailAddress": "fxbot.hong@symphony.com",
+
+    "botPrivateKeyPath": "rsa/",
+    "botPrivateKeyName": "rsa-private-fxBot.pem",
+    "authenticationFilterUrlPattern": "/v1/",
+    "appId": "app-hong",
+    "appPrivateKeyPath": "rsa/",
+    "appPrivateKeyName": "app_privatekey.pem",
+    "appCertPath": "certificates/",
+    "appCertName": "app-hong.p12",
+    "appCertPassword": "changeit",
+
+
+    "botCertPath": "certificates/fxbot-hong-certificates/",
+    "botCertName": "fxbot-hong.p12",
+    "botCertPassword": "changeit",
+
+    "proxyURL": "",
+    "proxyUsername": "",
+    "proxyPassword": "",
+    "keyManagerProxyURL": "",
+    "keyManagerProxyUsername": "",
+    "keyManagerProxyPassword": "",
+    "datafeedVersion": "v1",
+    "datafeedEventsErrorTimeout": "2"
+}
